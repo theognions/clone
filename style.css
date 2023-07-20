@@ -1,0 +1,156 @@
+body{
+    font-family: sans-serif;
+    color: rgb(165, 162, 162);
+    max-width: 2000px;
+    margin: auto ;
+}
+a{
+    color: rgb(165, 162, 162);
+    text-decoration: none;
+}
+
+.active{
+    color: #5dc6b0;
+}
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.introduction-logo{
+    width: 50px;
+    height: 50px;
+   
+
+}
+.introduction-title{
+    color: #5dc6b0;
+}
+.introduction-paragraph{
+    margin: 10px;
+}
+.introduction-text{
+    display: flex;
+}
+.services
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.service-card{
+    padding: 20px;
+    border-radius: 8 px;
+    color: white;
+    margin: 10px;
+    position: relative;
+    flex-grow: 1;
+    height: 200px;
+}
+.service-card-patient{
+    background-color: #00ccb1;
+}
+.service-card-doctors{
+    background-color: #4293db;
+}
+.service-car-select{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.county-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.desc{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    display: flex;
+    color: #5dc6b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+div .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    margin-top: 0.5cm;
+    display: flex;
+    gap: 2cm;
+    justify-content: center;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+    margin-right: 20px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.section7 h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+}
+.section7 button {
+    margin-left: 120px;
+    background-color: #3d83df;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+}
